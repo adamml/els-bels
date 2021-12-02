@@ -3,7 +3,7 @@ body {width: 100%; background-color: #ffffff; padding-bottom: 2%; font-family: b
 
 @font-face{
 	font-family: balthazar;
-	src: local(web-assets/Balthazar-Regular.woff)
+	url: local(web-assets/Balthazar-Regular.woff)
 }
 
 .contact, .placeholder-text{
