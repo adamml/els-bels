@@ -29,3 +29,16 @@ body {width: 100%; background-color: #ffffff; padding-bottom: 2%; font-family: b
 .dropcap {
 	font-size: 130%;
 }
+
+elsbels-navigation {
+	--width: 100%;
+	--text-align: center;
+	--font-family: balthazar;
+	--padding: 50px 0px 50px 0px;
+}
+
+elsbels-footer {
+	--padding: 25px 0px 0px 0px;
+	--text-align: center;
+	--font-family: balthazar;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="The Els-Bels Boutique website. Based in Oranmore on the shores of Galway Bay, Ireland, hand made bags, pencil cases, snoods, snarfs.">
+		<meta name="keywords" content="Els-Bels, Boutique, Oranmore, Galway, Ireland, handmade, bags">
+		<meta name="og:url" content="http://www.elsbelsboutique.com">
+		<meta name="og:title" content="Gallery | Els-Bels Boutique">
+		<meta name="og:description" content="The Els-Bels Boutique website. Based in Oranmore on the shores of Galway Bay, Ireland, hand made bags, pencil cases, snoods, snarfs.">
+		<meta name="og:type" content="website">
+		<meta name="og:image" content="img/WebLogo.png">
+		<link rel="stylesheet" href="css/splide.min.css">
+		<link rel="stylesheet" href="css/web.css">
+		<script src="js/splide.min.js"></script>
+    <script src="js/eb-web.js"></script>
+		<title>Gallery | Els-Bels Boutique</title>
+	</head>
+
+	<body>
+
+    <elsbels-navigation page="gallery"></elsbels-navigation>
+
+		<section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                  <ul class="splide__list">
+                      <li class="splide__slide">
+                        <div class="splide__slide__container">
+                            <img src="img/tiger_scarf.jpg" style="width: 100%;">
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="splide__slide__container">
+                            <img src="img/dopp_kit.jpg" style="width: 100%">
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="splide__slide__container">
+                            <img src="img/hat.jpg" style="width: 100%">
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="splide__slide__container">
+                            <img src="img/pouches.jpg" style="width: 100%">
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="splide__slide__container">
+                            <img src="img/keyrings.jpg" style="width: 100%">
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="splide__slide__container">
+                            <img src="img/wallet.jpg"  style="width: 100%">
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="splide__slide__container">
+                            <img src="img/h202go.jpg" style="width: 100%">
+                        </div>
+                      </li>
+                  </ul>
+            </div>
+          </section>
+		<script>
+            ElsBels.onloadhandler();
+            new Splide( '.splide', {
+                    type: 'loop',
+                    height: '25rem',
+                    focus: "center",
+                    perPage: 3
+                }).mount();
+        </script>
+        <elsbels-footer></elsbels-footer>
+	</body>
+
+</html>
