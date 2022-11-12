@@ -80,7 +80,7 @@ customElements.define('elsbels-navigation', class extends HTMLElement {
         }
 
         shadow.innerHTML = `<style>
-        div{
+        .container{
             font-family: var(--font-family);
             margin: var(--margin);
             padding: var(--padding);
@@ -88,10 +88,24 @@ customElements.define('elsbels-navigation', class extends HTMLElement {
             width: var(--width);
             font-weight: bold;
         }
+        img{
+            width: 10%;
+            float: left;
+            margin-left: 5%;
+        }
+        .after{ clear: both;}
+        .navbar { 
+            position: absolute;
+            width: 100%;
+            float: left;
+            margin-top: 1.6%;
+            transform: translate(-4%, 0);
+        }
     </style>
-    <div>
-        ${__home} | ${__about} | ${__gallery} | ${__commissions} | ${__calendar} | ${__contact}
-    </div>`;
+    <div class="container">
+        <img src="./img/WebLogo.png" alt="Els-Bels Boutique Logo" /><div class="navbar">${__home} | ${__about} | ${__gallery} | ${__commissions} | ${__calendar} | ${__contact}</span>
+    </div>
+    <div class="after></div>`;
     }
 });
 

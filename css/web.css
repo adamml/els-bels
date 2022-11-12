@@ -22,8 +22,9 @@ body {width: 100%; background-color: #ffffff; padding-bottom: 2%; font-family: b
 }
 
 .placeholder-img {
-	margin: 2% 10% 2% 10%;
-	text-align: center;
+	margin-top: 5%;
+	display: flex;
+	justify-content: center;
 }
 
 .dropcap {
