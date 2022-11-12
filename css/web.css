@@ -42,3 +42,11 @@ elsbels-footer {
 	--text-align: center;
 	--font-family: balthazar;
 }
+
+p {
+	text-align: justify;
+	margin: 5% 15% 5% 15%;
+	font-size: 125%;
+	text-justify: inter-word;
+	line-height: 1.35;
+}

@@ -131,3 +131,21 @@ customElements.define('elsbels-footer', class extends HTMLElement {
         Array.from(shadow.querySelectorAll("a")).map(x => x.target = '_blank');
     }
 });
+
+customElements.define('elsbels-contact', class extends HTMLElement {
+    constructor(){super();}
+    connectedCallback(){
+        const shadow = this.attachShadow({mode: 'open'});
+        shadow.innerHTML = `
+            <style>
+                em {
+                    font-weight: bold;
+                }
+            </style>
+            <center>
+            <em>E-mail</em>: <a href='&#109;ailto&#58;e%6&#67;s%62els%62outi&#113;&#117;e&#64;&#37;&#54;7ma&#37;69l&#46;&#99;om'>els&#98;el&#115;b&#111;&#117;&#116;i&#113;ue&#64;gmail&#46;c&#111;m</a><br/><br/>
+            <em>Phone</em>: +353 862115271
+            </center>
+        `;
+    }
+});
