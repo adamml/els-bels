@@ -31,6 +31,10 @@ body {width: 100%; background-color: #ffffff; padding-bottom: 2%; font-family: b
 	font-size: 130%;
 }
 
+section.splide {
+	margin-top: 5%;
+}
+
 elsbels-navigation {
 	--width: 100%;
 	--text-align: center;
